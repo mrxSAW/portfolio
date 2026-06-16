@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Arkass | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2 class="logo">ARQAS MOHAMED</h2>
+
+    <ul id="menu">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div>
+      <button id="darkBtn">🌙</button>
+      <button id="menuBtn">☰</button>
+    </div>
+  </nav>
+</header>
+
+<section id="accueil" class="hero">
+  <img src="image/me.jpeg" alt="Photo de Ahmed Arkass">
+
+  <h1>ARQAS MOHAMED</h1>
+  <h3>Développeur Java / Spring Boot</h3>
+
+  <p>
+    Passionné par le développement web, les applications de gestion,
+    les systèmes d'information, la santé numérique et les technologies modernes.
+  </p>
+
+  <a href="#projets" class="btn">Voir mes projets</a>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+
+  <p>
+    Je suis développeur orienté Java, Spring Boot, JavaScript et Python.
+    J'ai réalisé plusieurs projets dans les domaines de la santé, finance,
+    logistique, e-learning, banque et applications web.
+  </p>
+
+  <p>
+    Mon objectif est de développer des applications professionnelles,
+    modernes, sécurisées et utiles pour les entreprises et les utilisateurs.
+  </p>
+</section>
+
+<section id="competences">
+  <h2>Compétences</h2>
+
+  <div class="skills">
+    <div class="skill-card">
+      <h3>Java</h3>
+      <div class="progress"><div style="width: 95%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Spring Boot</h3>
+      <div class="progress"><div style="width: 90%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>MySQL</h3>
+      <div class="progress"><div style="width: 85%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>JavaScript</h3>
+      <div class="progress"><div style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Python</h3>
+      <div class="progress"><div style="width: 75%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Git / GitHub</h3>
+      <div class="progress"><div style="width: 90%;"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2>Mes Projets</h2>
+
+  <div class="filters">
+    <button onclick="filterProjects('all')">Tous</button>
+    <button onclick="filterProjects('java')">Java</button>
+    <button onclick="filterProjects('javascript')">JavaScript</button>
+    <button onclick="filterProjects('python')">Python</button>
+  </div>
+
+  <div class="projects">
+
+    
+
+    <div class="project java">
+      <h3>HealthCarePlus</h3>
+      <p>Système de gestion des patients, médecins et dossiers médicaux.</p>
+      <p><strong>Technologies :</strong> Java, Spring Boot</p>
+      <a href="https://github.com/ENAA-School-Student/HealthCARE-App-mrx-part4" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>fleetFlow</h3>
+      <p>Application de gestion de flotte, véhicules, chauffeurs et livraisons.</p>
+      <p><strong>Technologies :</strong> Java, Spring Boot</p>
+      <a href="https://github.com/ENAA-School-Student/FleetFlow-mrx-4.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>LogiTrack</h3>
+      <p>Projet de suivi logistique et de gestion des opérations.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/LogiTrack.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>SupplyFlow-repo</h3>
+      <p>Application de gestion de la chaîne d’approvisionnement.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/SupplyFlow-repo.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>e-Social-Systems-repo</h3>
+      <p>Système de gestion sociale et administrative.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/e-Social-Systems-repo.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>finePay3</h3>
+      <p>Application de paiement et gestion financière.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/finePay3.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    
+
+    <div class="project java">
+      <h3>XTRADE-APP</h3>
+      <p>Application d’achat et de vente d’actifs comme les cryptomonnaies.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/XTRADE-APP.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>Ebank-java</h3>
+      <p>Application de gestion bancaire.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/Ebank-java.git" target="_blank">Voir GitHub</a>
+    </div>
+
+   
+
+    <div class="project javascript">
+      <h3>gestion-des-apprennant</h3>
+      <p>Application de gestion des apprenants.</p>
+      <p><strong>Technologies :</strong> JavaScript, HTML, CSS</p>
+      <a href="https://github.com/mrxSAW/gestion-des-apprennant.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project javascript">
+      <h3>App-meteo</h3>
+      <p>Application météo dynamique utilisant JavaScript.</p>
+      <p><strong>Technologies :</strong> JavaScript, API météo</p>
+      <a href="https://github.com/mrxSAW/App-meteo.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>Distributeur Automatique Vending Machine</h3>
+      <p>Simulation d’un distributeur automatique.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/Distributeur-Automatique-Vending-Machine-.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3>projet restaurant</h3>
+      <p>Application de gestion de restaurant.</p>
+      <p><strong>Technologies :</strong> Java</p>
+      <a href="https://github.com/mrxSAW/projet-restaurant-java.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project java">
+      <h3> Plateforme E-learning</h3>
+      <p>Mini-projet de plateforme e-learning basé sur les relations entre classes Java.</p>
+      <p><strong>Technologies :</strong> Java, POO</p>
+      <a href="https://github.com/mrxSAW/MINIPROJETjava-classRELATION-PLATFORME-elearning.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project javascript">
+      <h3>mini-Project-Smart-Taxi-Dispatcher</h3>
+      <p>Application de gestion intelligente de taxi.</p>
+      <p><strong>Technologies :</strong> JavaScript</p>
+      <a href="https://github.com/mrxSAW/mini-Project-Smart-Taxi-Dispatcher-.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project javascript">
+      <h3>ascensseur</h3>
+      <p>Simulation ou exercice pratique autour d’un système d’ascenseur.</p>
+      <p><strong>Technologies :</strong> JavaScript</p>
+      <a href="https://github.com/mrxSAW/ascensseur-and-workshop-2.git" target="_blank">Voir GitHub</a>
+    </div>
+
+    <div class="project javascript">
+      <h3>mini-project-ENAA-CALCULATOR</h3>
+      <p>Calculatrice développée avec JavaScript.</p>
+      <p><strong>Technologies :</strong> JavaScript, HTML, CSS</p>
+      <a href="https://github.com/mrxSAW/mini-project-ENAA-CALCULATOR-26-09-2025.git" target="_blank">Voir GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Votre nom">
+    <input type="email" id="email" placeholder="Votre email">
+    <textarea id="message" placeholder="Votre message"></textarea>
+    <button type="submit">Envoyer</button>
+    <p id="formMessage"></p>
+  </form>
+</section>
+
+<button id="topBtn">↑</button>
+
+<footer>
+  <p>© 2026 Ahmed Arkass - Tous droits réservés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
