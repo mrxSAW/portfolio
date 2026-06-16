@@ -53,10 +53,26 @@ form.addEventListener("submit", function(e) {
     return;
   }
 
-  formMessage.textContent = "Message envoyé avec succès !";
-  formMessage.style.color = "green";
+  formMessage.textContent = "Envoi en cours...";
+  formMessage.style.color = "#2563eb";
 
-  form.reset();
+  emailjs.send(
+  "service_MRX",
+  "template_3whxp5v",
+  {
+    name: name,
+    email: email,
+    message: message
+  }
+)
+.then(() => {
+    formMessage.textContent = "Message envoyé avec succès !";
+    formMessage.style.color = "green";
+    form.reset();
+})
+.catch((error) => {
+    console.log("ERROR DETAILS:", error);
+});
 });
 
 function filterProjects(category) {

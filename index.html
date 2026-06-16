@@ -228,13 +228,13 @@
 <section id="contact">
   <h2>Contact</h2>
 
-  <form id="contactForm">
-    <input type="text" id="name" placeholder="Votre nom">
-    <input type="email" id="email" placeholder="Votre email">
-    <textarea id="message" placeholder="Votre message"></textarea>
-    <button type="submit">Envoyer</button>
-    <p id="formMessage"></p>
-  </form>
+ <form id="contactForm">
+  <input type="text" id="name" name="name" placeholder="Votre nom">
+  <input type="email" id="email" name="email" placeholder="Votre email">
+  <textarea id="message" name="message" placeholder="Votre message"></textarea>
+  <button type="submit">Envoyer</button>
+  <p id="formMessage"></p>
+</form>
 </section>
 
 <button id="topBtn">↑</button>
@@ -242,6 +242,15 @@
 <footer>
   <p>© 2026 Ahmed Arkass - Tous droits réservés</p>
 </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init({
+    publicKey: "FHBTQ0T9gjuN5KcGL"
+  });
+</script>
+
 
 <script src="script.js"></script>
 </body>
